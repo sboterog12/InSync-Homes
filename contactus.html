@@ -58,6 +58,12 @@
         button:hover {
             background-color: #005bb5;
         }
+        label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
     </style>
 </head>
 <body>
@@ -87,19 +93,43 @@
                 <option value="Referral">Referral</option>
                 <option value="Other">Other</option>
             </select>
-            <h3>What are you looking for? (required)</h3>
-            <label><input type="checkbox"> Home Automation</label>
-            <label><input type="checkbox"> Security - Alarm System Package</label>
-            <label><input type="checkbox"> Security - Interior/Exterior Camera Solutions</label>
-            <label><input type="checkbox"> Automated Lighting</label>
-            <label><input type="checkbox"> Automated Shades</label>
-            <label><input type="checkbox"> Home Theater and AV Package</label>
-            <label><input type="checkbox"> Network and WiFi Infrastructure</label>
-            <label><input type="checkbox"> IT Management</label>
-            <label><input type="checkbox"> IIoT Systems Deployment</label>
-            <label><input type="checkbox"> Cloud Infrastructure Deployment</label>
-            <label><input type="checkbox"> Access Control</label>
-            <label><input type="checkbox"> Maintenance Packages</label>
+           <h3>What are you looking for? (required)</h3>
+<div>
+    <label><input type="checkbox" name="services" value="Home Automation"> Home Automation</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Security - Alarm System Package"> Security - Alarm System Package</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Security - Interior/Exterior Camera Solutions"> Security - Interior/Exterior Camera Solutions</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Automated Lighting"> Automated Lighting</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Automated Shades"> Automated Shades</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Home Theater and AV Package"> Home Theater and AV Package</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Network and WiFi Infrastructure"> Network and WiFi Infrastructure</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="IT Management"> IT Management</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="IIoT Systems Deployment"> IIoT Systems Deployment</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Cloud Infrastructure Deployment"> Cloud Infrastructure Deployment</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Access Control"> Access Control</label>
+</div>
+<div>
+    <label><input type="checkbox" name="services" value="Maintenance Packages"> Maintenance Packages</label>
+</div>
             <h3>Communication Consent (required)</h3>
             <p>By checking the box below, you consent to receiving communication from OnHive Inc. via text, email, or phone call. This includes, but is not limited to, updates, promotions, and important information related to our products and services.</p>
             <label><input type="checkbox" required> I consent to receiving communication via text, email, and phone call.</label>
