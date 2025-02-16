@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            width: 80%;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #0073e6;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, select {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+            <p><a href="mailto:info@onhive.ca">info@onhive.ca</a></p>
+            <p><a href="tel:+18774978345">+1 (877) 497-8345</a></p>
+            <p>2030 Bristol Circle, Suite 210, Oakville, Ontario</p>
+            <div class="social-icons">
+                <a href="#">&#x1F4F7;</a> <!-- Instagram Icon -->
+                <a href="#">&#x1F465;</a> <!-- Facebook Icon -->
+                <a href="#">&#x1F4C8;</a> <!-- LinkedIn Icon -->
+            </div>
+        </div>
+        <h3>Get A Quote:</h3>
+        <form>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone" required>
+            <input type="text" placeholder="Postcode" required>
+            <select required>
+                <option value="" disabled selected>How did you find us?</option>
+                <option value="Google">Google</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Referral">Referral</option>
+                <option value="Other">Other</option>
+            </select>
+            <h3>What are you looking for? (required)</h3>
+            <label><input type="checkbox"> Home Automation</label>
+            <label><input type="checkbox"> Security - Alarm System Package</label>
+            <label><input type="checkbox"> Security - Interior/Exterior Camera Solutions</label>
+            <label><input type="checkbox"> Automated Lighting</label>
+            <label><input type="checkbox"> Automated Shades</label>
+            <label><input type="checkbox"> Home Theater and AV Package</label>
+            <label><input type="checkbox"> Network and WiFi Infrastructure</label>
+            <label><input type="checkbox"> IT Management</label>
+            <label><input type="checkbox"> IIoT Systems Deployment</label>
+            <label><input type="checkbox"> Cloud Infrastructure Deployment</label>
+            <label><input type="checkbox"> Access Control</label>
+            <label><input type="checkbox"> Maintenance Packages</label>
+            <h3>Communication Consent (required)</h3>
+            <p>By checking the box below, you consent to receiving communication from OnHive Inc. via text, email, or phone call. This includes, but is not limited to, updates, promotions, and important information related to our products and services.</p>
+            <label><input type="checkbox" required> I consent to receiving communication via text, email, and phone call.</label>
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>
